@@ -1,2 +1,5 @@
-# css-alpha-challenge
-CSS Challenge launched by Laysa and Isabella for Alpha EdTech.
+# CSS Challenge launched by Laysa and Isabella for Alpha EdTech
+
+<div align="center" >
+  <img src="./assets/print-nav.png />  
+</div>
