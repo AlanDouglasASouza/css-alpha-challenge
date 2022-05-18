@@ -19,108 +19,6 @@ body {
     background-size: 66vw 90vh;
     background-repeat: no-repeat;
 }
-.header-top {
-    display: flex;
-    height: 80px;
-    font-weight:bold;
-    font-size: 2vh;    
-}
-
-a {
-    text-decoration: none;
-    color: #ffffff;
-}
-
-.nav-bar {
-    padding: 40px 5vw;
-}
-
-.nav-options {
-    padding: 3vw;
-}
-
-#first-left {
-    margin-left: 700px;
-}
-
-.container {
-    height: 30vh;
-    width: 37vw;
-    margin: 8vh 12vw;
-}
-
-img#logo-title {
-    width: 35vw;
-}
-
-.content {
-    margin-top: 35px;
-}
-
-.tab-name {
-    padding-right: 6.5vw;
-    font-size: 10pt;
-    color: #5d5d61;
-    font-weight: bold;
-    line-height: 26px;
-}
-
-.tb-value {
-    font-weight: bold;    
-}
-
-.buttons {
-    margin-top: 10vh;
-}
-
-#submit-button {
-    padding: 17px;
-    width: 160px;
-    color: black;
-    background-color: #ffffff;
-    border: none;    
-}
-
-input[type="number"] {
-    -webkit-appearance: textfield;
-    -moz-appearance: textfield;
-    appearance: textfield;
-}
-
-input[type=number]::-webkit-inner-spin-button,
-input[type=number]::-webkit-outer-spin-button {
-    -webkit-appearance: none;
-}
-
-#qnt {
-    padding: 17px;
-    padding-left: 60px;
-    width: 55px;
-    color: #ffffff;        
-    border: 1px solid #5d5d61;
-    background-color: #08050C;
-    margin-right: 30px;
-}
-
-button#top {
-    position: absolute;
-    border: none;
-    color: #ffffff;    
-    background-color: #08050C;
-    margin: 1.5vh 2vw;
-    font-size: 18pt;
-}
-
-button#down {
-    position: absolute;
-    border: none;
-    color: #ffffff;
-    background-color: #08050C;
-    margin-top: 2vh;    
-    font-size: 18pt;
-    right: 80vw;
-    
-}
 
 .sing {
     position: absolute;
@@ -129,4 +27,10 @@ button#down {
     margin-bottom: 40px;
     font-weight: bold;
     font-size: 2vh;
+}
+
+@media(max-width: 1000px) {
+    .sing {
+        display: none;
+    }
 }
