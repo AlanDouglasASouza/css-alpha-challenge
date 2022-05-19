@@ -35,3 +35,25 @@ img#logo-title {
         width: 100vw;
     }
 }
+
+@media(max-width: 500px) {
+    .container {
+        width: 85vw;
+        margin: 60vh 8vw;
+        text-align: justify;
+    }
+
+    img#logo-title {
+        width: 80vw;
+    }
+
+    .content {
+        margin-top: 15px;       
+    }
+}
+
+@media(max-width: 400px) {
+    .container {       
+        margin: 55vh 8vw;        
+    }
+}
