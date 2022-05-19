@@ -32,5 +32,17 @@ body {
 @media(max-width: 1000px) {
     .sing {
         display: none;
+    }    
+    .background-fall {        
+        background-size: 100vw;
+        background-position: 20vw 20vh;
     }
 }
+
+@media(max-width: 500px) {
+    .background-fall {
+        background-position: 0vw 15vh;
+        background-size: 100vw;        
+        }
+    }
+    

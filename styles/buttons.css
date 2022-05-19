@@ -62,11 +62,12 @@ button#down {
 }
 
 @media(max-width: 500px) {
-    .buttons {      
-       position: absolute;
-       bottom: 0;
-       margin-bottom: 1vh;
-       margin-left: 0.5vh;
+    .buttons {
+        position: relative;
+        height: 15vh;
+        margin-top: 5vh;
+        margin-bottom: 10vh;
+        margin-left: 0vh;
     }
     #submit-button {
        width: 40vw;
@@ -82,5 +83,32 @@ button#down {
     }
     button#top {
         margin: 1.5vh 20px;
+    }
+}
+
+@media(max-width: 400px) {
+    #submit-button {
+        width: 38vw;
+        padding: 12px;
+    }
+
+    #qnt {
+        width: 12vw;
+        padding: 12px;
+        padding-left: 13vw;        
+    }
+
+    button#down {
+        margin: 1.2vh 80px;
+    }
+
+    button#top {
+        margin: 1.2vh 20px;
+    }
+}
+
+@media(max-width: 350px) {
+    button#down {
+        margin: 1.2vh 65px;
     }
 }

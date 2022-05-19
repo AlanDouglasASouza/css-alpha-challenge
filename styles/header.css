@@ -43,3 +43,9 @@ a {
         margin-left: 20vw;
     }    
 }
+
+@media(max-width: 400px) {
+    #first-left {
+        margin-left: 15vw;
+    }
+}
